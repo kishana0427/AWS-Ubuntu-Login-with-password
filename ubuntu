@@ -66,8 +66,7 @@ While it’s generally safer to use SSH key pairs, if you need to enable passwor
 ============================================ OR =========================================================
 
 ssh root@18.61.61.30 root@18.61.61.30: Permission denied (publickey). not working with password aws ubuntu
-ChatGPT said:
-ChatGPT
+
 It sounds like you're trying to SSH into an AWS Ubuntu instance, but you're encountering a permission issue related to the public key authentication. Here’s a step-by-step guide to troubleshoot and resolve the issue:
 
 1. Check SSH Key Configuration
@@ -130,8 +129,7 @@ By following these steps, you should be able to diagnose and resolve the issue w
 
 You said:
 ssh root@18.61.61.30 root@18.61.61.30: Permission denied (publickey). not working with password aws ubuntu
-ChatGPT said:
-ChatGPT
+
 The error message you're seeing, Permission denied (publickey), indicates that SSH authentication is failing because it can't use the public key you've provided, and it's not falling back to password authentication. Here’s how you can address this issue:
 
 Common Causes and Solutions
@@ -221,8 +219,7 @@ Most likely, you are either using the wrong default user or the wrong private ke
 
 You said:
 ssh root@18.61.61.30 root@18.61.61.30: Permission denied (publickey). not working with password aws ubuntu
-ChatGPT said:
-ChatGPT
+
 If you're encountering Permission denied (publickey) when trying to SSH into an AWS Ubuntu instance and password authentication is not working, here’s a structured approach to resolve the issue:
 
 1. Check Default User
